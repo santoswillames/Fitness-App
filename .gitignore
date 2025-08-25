@@ -1,0 +1,57 @@
+# Dependências
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Logs
+*.log
+*.tmp
+*.tmp.*
+*.swp
+
+# macOS
+.DS_Store
+
+# Android
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/local.properties
+/android/*.iml
+/android/.idea/
+/android/captures/
+/android/.cxx/
+
+# iOS
+/ios/build/
+/ios/Pods/
+/ios/Podfile.lock
+/ios/*.xcworkspace
+/ios/*.xcuserstate
+/ios/*/*.xcodeproj/xcuserdata/
+/ios/*/*.xcodeproj/project.xcworkspace
+
+# Watchman
+.watchmanconfig
+
+# Metro Bundler cache
+.expo/
+.expo-shared/
+.expo-env.json
+.expo-settings.json
+/metro-cache/
+/react-native.config.js
+
+# VSCode
+.vscode/
+
+# Fastlane
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
+/fastlane/test_output
+
+# Misc
+.env
+.env.local
+.env.*.local
