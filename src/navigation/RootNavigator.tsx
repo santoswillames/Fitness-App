@@ -12,7 +12,7 @@ const RootStack = createNativeStackNavigator<RootStackParamList>();
 
 export function RootNavigator() {
   const isAuthenticated = true;
-  const hasCompletedOnboarding = false;
+  const hasCompletedOnboarding = true;
 
   // Define qual stack deve abrir primeiro
   const initialRoute = !isAuthenticated

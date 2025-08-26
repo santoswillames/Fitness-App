@@ -11,54 +11,100 @@ import HomeIcon from "../assets/menu.svg";
 import SettingsIcon from "../assets/settings.svg";
 import ScheduleIcon from "../assets/calendar.svg";
 import StatisticsIcon from "../assets/charts.svg";
+import { TabBarButton } from "../components/tabBarButton";
+import { View } from "react-native";
 
 const MainTab = createBottomTabNavigator<MainTabParamList>();
 
 const MainNavigator = () => {
   return (
     <MainTab.Navigator
-      screenOptions={({ route }) => ({
-        tabBarIcon: ({ focused, size, color }) => {
-          if (route.name === "Home") {
-            return <HomeIcon width={size} height={size} fill={color} />;
-          } else if (route.name === "Settings") {
-            return <SettingsIcon width={size} height={size} fill={color} />;
-          } else if (route.name === "Schedule") {
-            return <ScheduleIcon width={size} height={size} fill={color} />;
-          } else if (route.name === "Statistics") {
-            return <StatisticsIcon width={size} height={size} fill={color} />;
-          }
+      screenOptions={{
+        headerShown: false,
+        tabBarShowLabel: false,
+        tabBarStyle: {
+          position: "absolute", // deixa flutuante
+          height: 90,
+          borderRadius: 90,
+          marginBottom: 31,
+          marginHorizontal: 17,
+          backgroundColor: "transparent", // importante!
+          elevation: 0, // remove sombra no Android, se quiser customizar
+          borderTopWidth: 0, // remove linha no iOS
         },
-        tabBarActiveTintColor: "#2f95dc",
-        tabBarInactiveTintColor: "gray",
-      })}
+        tabBarBackground: () => (
+          <View
+            style={{
+              flex: 1,
+              backgroundColor: "#5A556B", // cor de fundo real
+              borderRadius: 90,
+            }}
+          />
+        ),
+      }}
     >
       <MainTab.Screen
         name="Home"
         component={HomeScreen}
         options={{
-          title: "Início",
+          tabBarButton: (props) => (
+            <TabBarButton
+              {...props}
+              icon={
+                <HomeIcon
+                  color={props["aria-selected"] ? "#262135" : "#D9D9D961"}
+                />
+              }
+            />
+          ),
         }}
       />
       <MainTab.Screen
         name="Schedule"
         component={ScheduleScreen}
         options={{
-          title: "Agenda",
+          tabBarButton: (props) => (
+            <TabBarButton
+              {...props}
+              icon={
+                <ScheduleIcon
+                  color={props["aria-selected"] ? "#262135" : "#D9D9D961"}
+                />
+              }
+            />
+          ),
         }}
       />
       <MainTab.Screen
         name="Statistics"
         component={StatisticsScreen}
         options={{
-          title: "Estatísticas",
+          tabBarButton: (props) => (
+            <TabBarButton
+              {...props}
+              icon={
+                <StatisticsIcon
+                  color={props["aria-selected"] ? "#262135" : "#D9D9D961"}
+                />
+              }
+            />
+          ),
         }}
       />
       <MainTab.Screen
         name="Settings"
         component={SettingsScreen}
         options={{
-          title: "Configurações",
+          tabBarButton: (props) => (
+            <TabBarButton
+              {...props}
+              icon={
+                <SettingsIcon
+                  color={props["aria-selected"] ? "#262135" : "#D9D9D961"}
+                />
+              }
+            />
+          ),
         }}
       />
     </MainTab.Navigator>
