@@ -7,11 +7,12 @@ import { RootStackParamList } from "./types";
 import { MapScreen } from "../screens/map/MapScreen";
 import { SuccessScreen } from "../screens/success/Success";
 import { WorkoutScreen } from "../screens/workout/WorkoutScreen";
+import BootSplash from "react-native-bootsplash";
 
 const RootStack = createNativeStackNavigator<RootStackParamList>();
 
 export function RootNavigator() {
-  const isAuthenticated = true;
+  const isAuthenticated = false;
   const hasCompletedOnboarding = true;
 
   // Define qual stack deve abrir primeiro
@@ -22,7 +23,7 @@ export function RootNavigator() {
     : "Main";
 
   return (
-    <NavigationContainer>
+    <NavigationContainer onReady={() => BootSplash.hide({ fade: true })}>
       <RootStack.Navigator
         initialRouteName={initialRoute}
         screenOptions={{ headerShown: false }}

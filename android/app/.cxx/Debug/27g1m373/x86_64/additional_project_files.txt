@@ -1,3 +1,10 @@
+C:\Projetos\APP\android\app\.cxx\Debug\27g1m373\x86_64\RNBootSplashSpec_autolinked_build\CMakeFiles\react_codegen_RNBootSplashSpec.dir\RNBootSplashSpec-generated.cpp.o
+C:\Projetos\APP\android\app\.cxx\Debug\27g1m373\x86_64\RNBootSplashSpec_autolinked_build\CMakeFiles\react_codegen_RNBootSplashSpec.dir\react\renderer\components\RNBootSplashSpec\ComponentDescriptors.cpp.o
+C:\Projetos\APP\android\app\.cxx\Debug\27g1m373\x86_64\RNBootSplashSpec_autolinked_build\CMakeFiles\react_codegen_RNBootSplashSpec.dir\react\renderer\components\RNBootSplashSpec\EventEmitters.cpp.o
+C:\Projetos\APP\android\app\.cxx\Debug\27g1m373\x86_64\RNBootSplashSpec_autolinked_build\CMakeFiles\react_codegen_RNBootSplashSpec.dir\react\renderer\components\RNBootSplashSpec\Props.cpp.o
+C:\Projetos\APP\android\app\.cxx\Debug\27g1m373\x86_64\RNBootSplashSpec_autolinked_build\CMakeFiles\react_codegen_RNBootSplashSpec.dir\react\renderer\components\RNBootSplashSpec\RNBootSplashSpecJSI-generated.cpp.o
+C:\Projetos\APP\android\app\.cxx\Debug\27g1m373\x86_64\RNBootSplashSpec_autolinked_build\CMakeFiles\react_codegen_RNBootSplashSpec.dir\react\renderer\components\RNBootSplashSpec\ShadowNodes.cpp.o
+C:\Projetos\APP\android\app\.cxx\Debug\27g1m373\x86_64\RNBootSplashSpec_autolinked_build\CMakeFiles\react_codegen_RNBootSplashSpec.dir\react\renderer\components\RNBootSplashSpec\States.cpp.o
 C:\Projetos\APP\android\app\.cxx\Debug\27g1m373\x86_64\rngesturehandler_codegen_autolinked_build\CMakeFiles\react_codegen_rngesturehandler_codegen.dir\react\renderer\components\rngesturehandler_codegen\ComponentDescriptors.cpp.o
 C:\Projetos\APP\android\app\.cxx\Debug\27g1m373\x86_64\rngesturehandler_codegen_autolinked_build\CMakeFiles\react_codegen_rngesturehandler_codegen.dir\react\renderer\components\rngesturehandler_codegen\EventEmitters.cpp.o
 C:\Projetos\APP\android\app\.cxx\Debug\27g1m373\x86_64\rngesturehandler_codegen_autolinked_build\CMakeFiles\react_codegen_rngesturehandler_codegen.dir\react\renderer\components\rngesturehandler_codegen\Props.cpp.o

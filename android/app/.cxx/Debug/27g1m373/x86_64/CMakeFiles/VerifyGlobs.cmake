@@ -12,6 +12,31 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/x86_64/CMakeFiles/cmake.verify_globs")
 endif()
 
+# react_codegen_SRCS at C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/RNBootSplashSpec-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/x86_64/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/react/renderer/components/RNBootSplashSpec/*.cpp")
+set(OLD_GLOB
+  "C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/react/renderer/components/RNBootSplashSpec/ComponentDescriptors.cpp"
+  "C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/react/renderer/components/RNBootSplashSpec/EventEmitters.cpp"
+  "C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/react/renderer/components/RNBootSplashSpec/Props.cpp"
+  "C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/react/renderer/components/RNBootSplashSpec/RNBootSplashSpecJSI-generated.cpp"
+  "C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/react/renderer/components/RNBootSplashSpec/ShadowNodes.cpp"
+  "C:/Projetos/APP/node_modules/react-native-bootsplash/android/build/generated/source/codegen/jni/react/renderer/components/RNBootSplashSpec/States.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/x86_64/CMakeFiles/cmake.verify_globs")
+endif()
+
 # react_codegen_SRCS at C:/Projetos/APP/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Projetos/APP/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/*.cpp")
 set(OLD_GLOB

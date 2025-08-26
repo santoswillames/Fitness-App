@@ -1,6 +1,9 @@
 C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/armeabi-v7a/CMakeFiles/appmodules.dir
 C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/armeabi-v7a/CMakeFiles/edit_cache.dir
 C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/armeabi-v7a/RNBootSplashSpec_autolinked_build/CMakeFiles/react_codegen_RNBootSplashSpec.dir
+C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/armeabi-v7a/RNBootSplashSpec_autolinked_build/CMakeFiles/edit_cache.dir
+C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/armeabi-v7a/RNBootSplashSpec_autolinked_build/CMakeFiles/rebuild_cache.dir
 C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir
 C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/edit_cache.dir
 C:/Projetos/APP/android/app/.cxx/Debug/27g1m373/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/rebuild_cache.dir

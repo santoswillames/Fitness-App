@@ -7,10 +7,10 @@ import { SettingsScreen } from "../screens/main/SettingsScreen";
 import { ScheduleScreen } from "../screens/main/ScheduleScreen";
 import { StatisticsScreen } from "../screens/main/StatisticsScreen";
 
-import HomeIcon from "../assets/menu.svg";
-import SettingsIcon from "../assets/settings.svg";
-import ScheduleIcon from "../assets/calendar.svg";
-import StatisticsIcon from "../assets/charts.svg";
+import HomeIcon from "../assets/svgs/menu.svg";
+import SettingsIcon from "../assets/svgs/settings.svg";
+import ScheduleIcon from "../assets/svgs/calendar.svg";
+import StatisticsIcon from "../assets/svgs/charts.svg";
 import { TabBarButton } from "../components/tabBarButton";
 import { View } from "react-native";
 

@@ -40,7 +40,7 @@
 .expo-env.json
 .expo-settings.json
 /metro-cache/
-/react-native.config.js
+
 
 # VSCode
 .vscode/

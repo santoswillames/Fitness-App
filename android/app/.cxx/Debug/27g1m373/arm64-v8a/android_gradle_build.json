@@ -1,5 +1,6 @@
 {
   "buildFiles": [
+    "C:\\Projetos\\APP\\node_modules\\react-native-bootsplash\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
     "C:\\Projetos\\APP\\node_modules\\react-native-gesture-handler\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
     "C:\\Projetos\\APP\\node_modules\\react-native-reanimated\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
     "C:\\Projetos\\APP\\node_modules\\react-native-safe-area-context\\android\\src\\main\\jni\\CMakeLists.txt",
@@ -35,6 +36,11 @@
         "C:\\Users\\willa\\.gradle\\caches\\8.10.2\\transforms\\ffe8bc820e361c19e57c6796da86db29\\transformed\\react-android-0.77.0-debug\\prefab\\modules\\jsi\\libs\\android.arm64-v8a\\libjsi.so",
         "C:\\Users\\willa\\.gradle\\caches\\8.10.2\\transforms\\ffe8bc820e361c19e57c6796da86db29\\transformed\\react-android-0.77.0-debug\\prefab\\modules\\reactnative\\libs\\android.arm64-v8a\\libreactnative.so"
       ]
+    },
+    "react_codegen_RNBootSplashSpec::@05d5bd8b08339ce1ebaa": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "react_codegen_RNBootSplashSpec"
     },
     "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec": {
       "toolchain": "toolchain",
