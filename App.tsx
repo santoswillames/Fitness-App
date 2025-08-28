@@ -1,4 +1,5 @@
 import React from "react";
+import "./global.css"
 
 import { RootNavigator } from "./src/navigation/RootNavigator";
 import { StatusBar } from "react-native";
