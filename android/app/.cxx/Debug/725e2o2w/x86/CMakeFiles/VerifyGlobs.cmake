@@ -186,7 +186,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/fitnessApp/android/app/.cxx/Debug/725e2o2w/x86/CMakeFiles/cmake.verify_globs")
 endif()
 
-# rnsvg_SRCS at C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:10 (file)
+# rnsvg_SRCS at C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:25 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/*.cpp")
 set(OLD_GLOB
   "C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/rnsvg.cpp"
@@ -196,7 +196,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/fitnessApp/android/app/.cxx/Debug/725e2o2w/x86/CMakeFiles/cmake.verify_globs")
 endif()
 
-# rnsvg_SRCS at C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:10 (file)
+# rnsvg_SRCS at C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:25 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnsvg/*.cpp")
 set(OLD_GLOB
   "C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnsvg/RNSVGImageShadowNode.cpp"
@@ -209,7 +209,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/fitnessApp/android/app/.cxx/Debug/725e2o2w/x86/CMakeFiles/cmake.verify_globs")
 endif()
 
-# rnsvg_codegen_SRCS at C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:11 (file)
+# rnsvg_codegen_SRCS at C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt:26 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/*cpp")
 set(OLD_GLOB
   "C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg/ComponentDescriptors.cpp"

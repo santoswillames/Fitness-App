@@ -7,7 +7,10 @@ import {
   StyleSheet,
   Alert,
 } from "react-native";
+import Logo from "../../assets/svgs/logo.svg";
+import { Button, ButtonText } from "components/ui/button";
 import { useAuthNavigation } from "../../hooks/useTypedNavigation";
+import { VStack } from "components/ui/vstack";
 
 export function LoginScreen() {
   const [email, setEmail] = useState("");
@@ -23,77 +26,16 @@ export function LoginScreen() {
   };
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Login</Text>
+    <VStack className="flex-1">
+      <Logo width={46} height={46}/>
+      <Text className="text-white font-montserrat-bold text-[30px] mt-6 mb-8 ">Welcome back! Glad to see you, Again!</Text>
 
-      <TextInput
-        style={styles.input}
-        placeholder="Email"
-        value={email}
-        onChangeText={setEmail}
-        keyboardType="email-address"
-        autoCapitalize="none"
-      />
+      <Button className=" rounded-full h-[58px]" onPress={handleLogin}>
+        <ButtonText className="font-montserrat-semibold">Login</ButtonText>
+      </Button>
 
-      <TextInput
-        style={styles.input}
-        placeholder="Senha"
-        value={password}
-        onChangeText={setPassword}
-        secureTextEntry
-      />
-
-      <TouchableOpacity style={styles.button} onPress={handleLogin}>
-        <Text style={styles.buttonText}>Entrar</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity onPress={() => navigation.navigate("Register")}>
-        <Text style={styles.linkText}>Não tem conta? Cadastre-se</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity onPress={() => navigation.navigate("ForgotPassword")}>
-        <Text style={styles.linkText}>Esqueceu a senha?</Text>
-      </TouchableOpacity>
-    </View>
+    </VStack>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    paddingHorizontal: 20,
-    backgroundColor: "#fff",
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: "bold",
-    textAlign: "center",
-    marginBottom: 30,
-  },
-  input: {
-    borderWidth: 1,
-    borderColor: "#ddd",
-    padding: 15,
-    marginBottom: 15,
-    borderRadius: 8,
-    fontSize: 16,
-  },
-  button: {
-    backgroundColor: "#007AFF",
-    padding: 15,
-    borderRadius: 8,
-    alignItems: "center",
-    marginBottom: 20,
-  },
-  buttonText: {
-    color: "#fff",
-    fontSize: 16,
-    fontWeight: "bold",
-  },
-  linkText: {
-    textAlign: "center",
-    color: "#007AFF",
-    marginBottom: 10,
-  },
-});
+

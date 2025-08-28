@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/fitnessApp/android/app/build/intermediates/cxx/Debug/725e2o2w/obj/armeabi-v7a/libreact_codegen_rnsvg.so"
+			"path" : "C:/fitnessApp/android/app/build/intermediates/cxx/Debug/725e2o2w/obj/x86/libreact_codegen_rnsvg.so"
 		}
 	],
 	"backtrace" : 1,
@@ -12,8 +12,8 @@
 		[
 			"add_library",
 			"target_link_libraries",
+			"add_compile_options",
 			"target_compile_options",
-			"target_compile_definitions",
 			"target_include_directories"
 		],
 		"files" : 
@@ -28,23 +28,17 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 13,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 32,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
-				"file" : 0,
-				"line" : 60,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
 				"file" : 0,
 				"line" : 74,
 				"parent" : 0
@@ -52,19 +46,19 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 84,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 92,
+				"line" : 79,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 20,
+				"line" : 35,
 				"parent" : 0
 			}
 		]
@@ -75,7 +69,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D__BIONIC_NO_PAGE_SIZE_MACRO -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC"
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D__BIONIC_NO_PAGE_SIZE_MACRO -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=77 -fno-limit-debug-info  -fPIC"
 				},
 				{
 					"backtrace" : 4,
@@ -94,16 +88,20 @@
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-Wpedantic"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-Wno-gnu-zero-variadic-macro-arguments"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-Wno-dollar-in-identifier-extension"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DLOG_TAG=\\\"ReactNative\\\""
 				},
 				{
 					"backtrace" : 0,
@@ -141,29 +139,25 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 6,
-					"define" : "REACT_NATIVE_MINOR_VERSION=77"
-				},
-				{
 					"define" : "react_codegen_rnsvg_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"path" : "C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/."
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"path" : "C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"path" : "C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"path" : "C:/fitnessApp/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg"
 				},
 				{
@@ -214,17 +208,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Users\\willa\\.gradle\\caches\\8.10.2\\transforms\\ffe8bc820e361c19e57c6796da86db29\\transformed\\react-android-0.77.0-debug\\prefab\\modules\\reactnative\\libs\\android.armeabi-v7a\\libreactnative.so",
+				"fragment" : "C:\\Users\\willa\\.gradle\\caches\\8.10.2\\transforms\\ffe8bc820e361c19e57c6796da86db29\\transformed\\react-android-0.77.0-debug\\prefab\\modules\\reactnative\\libs\\android.x86\\libreactnative.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Users\\willa\\.gradle\\caches\\8.10.2\\transforms\\ffe8bc820e361c19e57c6796da86db29\\transformed\\react-android-0.77.0-debug\\prefab\\modules\\jsi\\libs\\android.armeabi-v7a\\libjsi.so",
+				"fragment" : "C:\\Users\\willa\\.gradle\\caches\\8.10.2\\transforms\\ffe8bc820e361c19e57c6796da86db29\\transformed\\react-android-0.77.0-debug\\prefab\\modules\\jsi\\libs\\android.x86\\libjsi.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\Users\\willa\\.gradle\\caches\\8.10.2\\transforms\\d7d422c0963f92aa7b8a765f3bd54231\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.armeabi-v7a\\libfbjni.so",
+				"fragment" : "C:\\Users\\willa\\.gradle\\caches\\8.10.2\\transforms\\d7d422c0963f92aa7b8a765f3bd54231\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.x86\\libfbjni.so",
 				"role" : "libraries"
 			},
 			{
