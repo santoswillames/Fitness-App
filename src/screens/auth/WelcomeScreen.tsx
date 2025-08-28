@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text } from "react-native";
 import Logo from "../../assets/svgs/logo.svg";
 import { GradientText } from "../../components/gradientText";
+import { Button, ButtonText } from "components/ui/button";
 
 export function WelcomeScreen() {
   return (
@@ -24,6 +25,10 @@ export function WelcomeScreen() {
           Journey
         </Text>
       </View>
+
+      <Button variant="solid" size="md" action="primary">
+        <ButtonText>Click me</ButtonText>
+      </Button>
      
     </View>
   );
