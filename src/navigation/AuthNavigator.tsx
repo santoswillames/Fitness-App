@@ -9,20 +9,25 @@ import { OtpScreen } from "../screens/auth/OtpScreen";
 import { ResetPasswordScreen } from "../screens/auth/ResetPasswordScreen";
 import { ResetPasswordSuccessScreen } from "../screens/auth/ResetPasswordSuccessScreen";
 import { WelcomeScreen } from "../screens/auth/WelcomeScreen";
+import { HeaderLogin } from "components/headerLogin";
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
 
 const AuthNavigator = () => {
   return (
     <AuthStack.Navigator
-      initialRouteName="Welcome"
+     initialRouteName="Welcome"
       screenOptions={{
-        headerShown: false,
         animation: "slide_from_right",
-        contentStyle: { backgroundColor: "#262135", paddingHorizontal: 23, paddingBottom: 58},
+        contentStyle: {
+          backgroundColor: "#262135",
+          paddingHorizontal: 23,
+          paddingBottom: 58,
+        },
+        header: () => <HeaderLogin />, 
       }}
     >
-      <AuthStack.Screen name="Welcome" component={WelcomeScreen} />
+      <AuthStack.Screen name="Welcome" component={WelcomeScreen} options={{ headerShown: false }} />
       <AuthStack.Screen name="Login" component={LoginScreen} />
       <AuthStack.Screen name="Register" component={Register} />
       <AuthStack.Screen name="ForgotPassword" component={ForgotScreen} />

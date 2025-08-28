@@ -45,12 +45,12 @@ export function WelcomeScreen() {
         <Button className=" rounded-full h-[58px]  bg-[#494358]" onPress={handleNavigatorLogin}>
           <ButtonText className="font-montserrat-semibold text-white">Login</ButtonText>
         </Button>
-        <Button className=" rounded-full h-[58px]" onPress={handleNavigatorRegister}>
-          <ButtonText className="font-montserrat-semibold">Register</ButtonText>
+        <Button className="bg-white rounded-full h-[58px]" onPress={handleNavigatorRegister}>
+          <ButtonText className="font-montserrat-semibold text-[#1E232C]">Register</ButtonText>
         </Button>
       </VStack>
       <Button variant="link" className="mt-[18px] ">
-        <ButtonText className="font-montserrat-bold underline decoration-solid">Continue as a guest</ButtonText>
+        <ButtonText className="font-montserrat-bold underline decoration-solid text-white">Continue as a guest</ButtonText>
       </Button>
      </Box>
      
