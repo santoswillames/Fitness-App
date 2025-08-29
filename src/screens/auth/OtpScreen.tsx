@@ -41,9 +41,9 @@ export function OtpScreen() {
       </Box>
 
       <Box className=" flex-row items-center gap-1">
-        <Text className="text-white text-sm ">Didn’t received code?</Text>
+        <Text className="text-white text-sm font-urbanist-regular">Didn’t received code?</Text>
         <Button variant="link" className="self-end" onPress={handleResendCode}>
-          <ButtonText className="font-montserrat-semibold text-sm text-[#F5F3BC]">Resend</ButtonText>
+          <ButtonText className="font-urbanist-bold text-sm text-[#F5F3BC]">Resend</ButtonText>
         </Button>
       </Box>
     </VStack>

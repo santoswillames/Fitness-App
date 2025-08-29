@@ -19,6 +19,10 @@
 		C85878A0D38F43BEA245AFDA /* MontserratAlternates-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9991DDF028947D7A3EC60C3 /* MontserratAlternates-Medium.ttf */; };
 		CBBCBD8D601E4468AF353799 /* MontserratAlternates-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73487B4293154409B525CD81 /* MontserratAlternates-Regular.ttf */; };
 		1AEE942C0A114DDAB7486B8D /* MontserratAlternates-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1BE0E2F33AD44BF89279229 /* MontserratAlternates-SemiBold.ttf */; };
+		711668BEC6E3439D920BFB0C /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE5C348396E44A0483B1A9F7 /* Urbanist-Bold.ttf */; };
+		CA7A03CC6C304A33A59B96E4 /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF7C66C2CD7A4DFA8B372F65 /* Urbanist-Medium.ttf */; };
+		221A88A97487403886C84D8C /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDDF982A743943B183662F88 /* Urbanist-Regular.ttf */; };
+		9E1F29A7BB0D4B98A2E17FD3 /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50BEE36BD6F84C8699B53EA6 /* Urbanist-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		F9991DDF028947D7A3EC60C3 /* MontserratAlternates-Medium.ttf */ = {isa = PBXFileReference; name = "MontserratAlternates-Medium.ttf"; path = "../src/assets/fonts/MontserratAlternates-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		73487B4293154409B525CD81 /* MontserratAlternates-Regular.ttf */ = {isa = PBXFileReference; name = "MontserratAlternates-Regular.ttf"; path = "../src/assets/fonts/MontserratAlternates-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		D1BE0E2F33AD44BF89279229 /* MontserratAlternates-SemiBold.ttf */ = {isa = PBXFileReference; name = "MontserratAlternates-SemiBold.ttf"; path = "../src/assets/fonts/MontserratAlternates-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DE5C348396E44A0483B1A9F7 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; name = "Urbanist-Bold.ttf"; path = "../src/assets/fonts/Urbanist-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF7C66C2CD7A4DFA8B372F65 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; name = "Urbanist-Medium.ttf"; path = "../src/assets/fonts/Urbanist-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDDF982A743943B183662F88 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; name = "Urbanist-Regular.ttf"; path = "../src/assets/fonts/Urbanist-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		50BEE36BD6F84C8699B53EA6 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; name = "Urbanist-SemiBold.ttf"; path = "../src/assets/fonts/Urbanist-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,10 @@
 				F9991DDF028947D7A3EC60C3 /* MontserratAlternates-Medium.ttf */,
 				73487B4293154409B525CD81 /* MontserratAlternates-Regular.ttf */,
 				D1BE0E2F33AD44BF89279229 /* MontserratAlternates-SemiBold.ttf */,
+				DE5C348396E44A0483B1A9F7 /* Urbanist-Bold.ttf */,
+				AF7C66C2CD7A4DFA8B372F65 /* Urbanist-Medium.ttf */,
+				FDDF982A743943B183662F88 /* Urbanist-Regular.ttf */,
+				50BEE36BD6F84C8699B53EA6 /* Urbanist-SemiBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -226,6 +238,10 @@
 				C85878A0D38F43BEA245AFDA /* MontserratAlternates-Medium.ttf in Resources */,
 				CBBCBD8D601E4468AF353799 /* MontserratAlternates-Regular.ttf in Resources */,
 				1AEE942C0A114DDAB7486B8D /* MontserratAlternates-SemiBold.ttf in Resources */,
+				711668BEC6E3439D920BFB0C /* Urbanist-Bold.ttf in Resources */,
+				CA7A03CC6C304A33A59B96E4 /* Urbanist-Medium.ttf in Resources */,
+				221A88A97487403886C84D8C /* Urbanist-Regular.ttf in Resources */,
+				9E1F29A7BB0D4B98A2E17FD3 /* Urbanist-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

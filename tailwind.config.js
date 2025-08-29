@@ -194,6 +194,11 @@ module.exports = {
         'montserrat-medium': ['MontserratAlternates-Medium'],
         'montserrat-semibold': ['MontserratAlternates-SemiBold'],
         'montserrat-bold': ['MontserratAlternates-Bold'],
+
+        'urbanist-regular': ['Urbanist-Regular'],
+        'urbanist-medium': ['Urbanist-Medium'],
+        'urbanist-semibold': ['Urbanist-SemiBold'],
+        'urbanist-bold': ['Urbanist-Bold'],
       },
       fontWeight: {
         extrablack: '950',

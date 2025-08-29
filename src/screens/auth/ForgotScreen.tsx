@@ -42,9 +42,9 @@ export function ForgotScreen() {
       </Box>
 
       <Box className=" flex-row items-center gap-1">
-        <Text className="text-white text-sm ">Remember Password?</Text>
+        <Text className="text-white text-sm font-urbanist-regular">Remember Password?</Text>
         <Button variant="link" className="self-end" onPress={handleNavigatorLogin}>
-          <ButtonText className="font-montserrat-semibold text-sm text-[#F5F3BC]">Login</ButtonText>
+          <ButtonText className="font-urbanist-bold text-sm text-[#F5F3BC]">Login</ButtonText>
         </Button>
       </Box>
 

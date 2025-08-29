@@ -83,9 +83,9 @@ export function LoginScreen() {
         </Box>
 
           <Box className=" flex-row items-center gap-1">
-            <Text className="text-white text-sm ">Don’t have an account?</Text>
+            <Text className="text-white text-sm font-urbanist-regular">Don’t have an account?</Text>
             <Button variant="link" className="self-end" onPress={handleNavigatorRegister}>
-              <ButtonText className="font-montserrat-semibold text-sm text-[#F5F3BC]">Register Now</ButtonText>
+              <ButtonText className="font-urbanist-bold text-sm text-[#F5F3BC]">Register Now</ButtonText>
             </Button>
           </Box>
 

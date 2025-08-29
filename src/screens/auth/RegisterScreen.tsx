@@ -104,9 +104,9 @@ export function Register() {
         </Box>
 
           <Box className=" flex-row items-center gap-1">
-            <Text className="text-white text-sm ">Already have an account?</Text>
+            <Text className="text-white text-sm font-urbanist-regular">Already have an account?</Text>
             <Button variant="link" className="self-end" onPress={handleNavigatorLogin}>
-              <ButtonText className="font-montserrat-semibold text-sm text-[#F5F3BC]">Login Now</ButtonText>
+              <ButtonText className="font-urbanist-bold text-sm text-[#F5F3BC]">Login Now</ButtonText>
             </Button>
           </Box>
 
