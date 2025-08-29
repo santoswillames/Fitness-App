@@ -9,7 +9,7 @@ import { OtpScreen } from "../screens/auth/OtpScreen";
 import { ResetPasswordScreen } from "../screens/auth/ResetPasswordScreen";
 import { ResetPasswordSuccessScreen } from "../screens/auth/ResetPasswordSuccessScreen";
 import { WelcomeScreen } from "../screens/auth/WelcomeScreen";
-import { HeaderLogin } from "components/headerLogin";
+import { HeaderNavigatorAuth } from "components/headerNavigatorAuth";
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
 
@@ -19,12 +19,13 @@ const AuthNavigator = () => {
      initialRouteName="Welcome"
       screenOptions={{
         animation: "slide_from_right",
+        keyboardHandlingEnabled: true,
         contentStyle: {
           backgroundColor: "#262135",
           paddingHorizontal: 23,
           paddingBottom: 58,
         },
-        header: () => <HeaderLogin />, 
+        header: () => <HeaderNavigatorAuth />, 
       }}
     >
       <AuthStack.Screen name="Welcome" component={WelcomeScreen} options={{ headerShown: false }} />
