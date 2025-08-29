@@ -8,13 +8,13 @@ export function HeaderNavigatorAuth() {
     const navigation = useNavigation()
 
     return (
-        <Box className="pt-14 pb-9 justify-end">
+        <Box className="py-9 justify-end">
             <Button
                 variant="outline"
                 className="rounded-2xl p-3.5 w-[55px] h-[44px] self-start border-[#D9D9D9]"
                 onPress={() => navigation.goBack()}
             >
-                <ButtonIcon as={ChevronLeft} color="white"/>
+                <ButtonIcon as={ChevronLeft} color="white" size={24}/>
             </Button>
         </Box>
 

@@ -7,7 +7,6 @@ import {
   Text,
   Alert,
 } from "react-native";
-import Logo from "../../assets/svgs/logo.svg";
 import { Button, ButtonText } from "components/ui/button";
 import { useAuthNavigation } from "../../hooks/useTypedNavigation";
 import { VStack } from "components/ui/vstack";
@@ -42,7 +41,7 @@ export function LoginScreen() {
   };
 
   return (
-    <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === "ios" ? "padding" : undefined}  >
+    <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === "ios" ? "padding" : "height"}  >
       <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
         <VStack className="flex-1 justify-between items-center">
         <Box className="flex-1 justify-center">
