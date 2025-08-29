@@ -8,10 +8,15 @@ export function HeaderLogin() {
     const navigation = useNavigation()
 
     return (
-        <Box className="h-11 justify-end" >
-            <Button variant="outline" className="rounded-2xl p-3.5" onPress={() => navigation.goBack()}>
-                <ButtonIcon as={ArrowLeft} />
+        <Box className="pt-14 pb-9 justify-end">
+            <Button
+                variant="outline"
+                className="rounded-2xl p-3.5 w-[55px] h-[44px] self-start border-[#D9D9D9]"
+                onPress={() => navigation.goBack()}
+            >
+                <ButtonIcon as={ArrowLeft} color="white"/>
             </Button>
         </Box>
+
     )
 }

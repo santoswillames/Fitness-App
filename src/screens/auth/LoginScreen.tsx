@@ -45,14 +45,14 @@ export function LoginScreen() {
         <Box className="gap-4">
           <Input
             variant="rounded"
-            className="h-14 bg-[#494358]"
+            className="h-14 bg-[#494358] border-0"
           >
             <InputField placeholder="Enter your email" className="font-montserrat-medium text-[13px]"/>
           </Input>
 
           <Input
             variant="rounded"
-            className="h-14 bg-[#494358]"
+            className="h-14 bg-[#494358] border-0"
           >
             <InputField placeholder="Enter your password" className="font-montserrat-medium text-[13px]"/>
           </Input>
