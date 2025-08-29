@@ -12,10 +12,9 @@ import BootSplash from "react-native-bootsplash";
 const RootStack = createNativeStackNavigator<RootStackParamList>();
 
 export function RootNavigator() {
-  const isAuthenticated = false;
-  const hasCompletedOnboarding = true;
+  const isAuthenticated = true;
+  const hasCompletedOnboarding = false;
 
-  // Define qual stack deve abrir primeiro
   const initialRoute = !isAuthenticated
     ? "Auth"
     : !hasCompletedOnboarding
