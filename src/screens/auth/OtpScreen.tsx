@@ -2,10 +2,12 @@ import React from "react";
 import {  Text } from "react-native";
 import { VStack } from "components/ui/vstack";
 import { Button, ButtonText } from "components/ui/button";
-import { Input, InputField } from "components/ui/input";
 import { Box } from "components/ui/box";
 import { useAuthNavigation } from "../../hooks/useTypedNavigation";
 import { AuthHeader } from "screens/auth/components/headerAuth";
+import { OtpInput } from "./components/inputOtp";
+import { HStack } from "components/ui/hstack";
+import { Input, InputField } from "components/ui/input";
 
 export function OtpScreen() {
    const navigation = useAuthNavigation();
@@ -28,12 +30,9 @@ export function OtpScreen() {
           </AuthHeader.Subtitle>
         </AuthHeader>     
 
-          <Input
-            variant="rounded"
-            className="h-14 bg-[#494358] border-0 mt-[33px]"
-          >
-            <InputField placeholder="Email" className="font-montserrat-medium text-[13px] text-white"/>
-          </Input>
+        <Box className="mt-9">
+          <OtpInput />
+        </Box>
 
         <Button className="bg-white rounded-full h-[58px] mt-[60px]" onPress={handleVerifyCode}>
           <ButtonText className="font-montserrat-semibold text-[#1E232C]">Verify</ButtonText>
